@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif!important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 23px!important;
+    font-size: 30px!important
+}
+
+header {
+    backdrop-filter: blur(10px);
+    background: rgb(255 255 255 / 25%);
+}
+
+.logo {
+    width: 79px!important;
+    padding: 10px;
+    background: rgb(243 189 67);
+}
+
+nav {
+    box-shadow: 15px 18px 13px 4px #8080800a;
+}
+
+.navigation>ul>li>a,
+.widgets>ul>li>a {
+    color: white!important;
+}
+
+section {
+    padding: 226px 10px;
+}
+
+#main {
+    color: white;
+    background-image: url(..//image/Traffic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pad,
+.nav,
+.widget,
+article {
+    padding: 10px!important
+}
+
+img {
+    width: 100%!important;
+}
+
+.my_content {
+    position: absolute;
+    top: -270px;
+}
+
+.my_btn {
+    padding: 10px;
+    background: rgb(231 159 0);
+    color: rgb(255 255 255);
+    border-radius: 6px;
+    font-size: 20px;
+    position: relative;
+    left: 16px;
+}
+
+.my_service {
+    background: rgb(255 255 255);
+    box-shadow: 3px 5px 56px 1px #80808017;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+.my_service>img {
+    height: 60px;
+    width: 80px!important;
+}
+
+.my_products {
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 56px 1px #80808017;
+    margin: 10px 0px;
+    position: relative;
+}
+
+.my_content>p {
+    font-size: 20px;
+    padding: 18px;
+}
+
+.more {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    padding: 10px;
+    background: rgb(243 189 67);
+    color: rgb(255 255 255);
+    bottom: 0;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    font-size: 22px;
+}
+
+@media(max-width:1200px) {
+    .widgets {
+        display: none;
+    }
+    nav {
+        display: block;
+        background: rgb(243, 189, 67);
+        position: fixed;
+        width: 100%;
+        z-index: 9999999;
+    }
+    section {
+        padding: 286px 10px;
+    }
+    .col-md-3 {
+        width: 50%;
+        float: left;
+    }
+    .menu {
+        line-height: 6;
+        position: absolute;
+        top: 34px;
+        right: 32px;
+        width: 56%;
+        transform: rotate( -180deg);
+    }
+    .first {
+        border: 1px solid rgb(255 255 255);
+        width: 15%;
+        margin: 8px 0px;
+    }
+    .sec {
+        border: 1px solid rgb(255 255 255);
+        width: 10%;
+    }
+    .dis {
+        display: none!important;
+    }
+}
